@@ -6,7 +6,7 @@ const MainLayout = () => {
     return (
         <main>
             <TopNav/>
-            <div className="flex flex-col  mt-[88px] w-screen items-center">
+            <div className="flex flex-col w-screen items-center">
                 <Outlet />
             </div>
         </main>

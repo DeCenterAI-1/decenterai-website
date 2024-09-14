@@ -17,7 +17,8 @@ const TopNav = () => {
 
             <div className="flex items-center">
 
-                <img src={logo} width={156} height={31} />
+                <Link to={"/"}> <img src={logo} width={156} height={31} /></Link>
+     
 
                 <ul className="flex justify-between gap-x-20 ml-20">
                     {
@@ -25,7 +26,7 @@ const TopNav = () => {
                             return (
                                 <li key={index}>
                                     <Link 
-                                        className={cn("text-base", pathname === link.link ? "text-primary-1" : "text-primary-7")} 
+                                        className={cn("text-base", pathname === link.link ? "text-primary-1" : pathname.includes("inferencing") ? "text-primary-1" : "text-primary-7")} 
                                         to={link.link}>{link.text}
                                     </Link>
                                 </li>
