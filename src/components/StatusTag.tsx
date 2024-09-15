@@ -1,5 +1,6 @@
 import { RotatingLines } from "react-loader-spinner"
 import { JOB_STATUS } from "../lib/enums"
+import statusTick from "../assets/status-tick.png"
 
 const StatusTag = ({status} : { status : JOB_STATUS }) => {
 
@@ -17,7 +18,7 @@ const StatusTag = ({status} : { status : JOB_STATUS }) => {
                             animationDuration="0.75"                            
                             ariaLabel="rotating-lines-loading"
                             />)
-                        : (<div></div>)
+                        : (<div><img width={20} src={statusTick} /></div>)
                 }
             </div>
 

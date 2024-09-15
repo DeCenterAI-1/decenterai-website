@@ -45,9 +45,9 @@ const Inference = () => {
     return (
         <Container>
 
-            <div className="h-screen flex items-center">
+            <div className="h-screen flex w-full justify-center items-center">
 
-                <form className="w-[640px] text-white" onSubmit={handleSubmit}>
+                <form className="max-w-[640px] w-full text-white" onSubmit={handleSubmit}>
 
                     <div className="px-4">
 

@@ -1,4 +1,3 @@
-import modelText from "../../assets/models-text.png"
 import { ISelectOption } from "../../lib/interfaces";
 
 export interface IProps {
@@ -14,10 +13,9 @@ const SelectModal = ({show, options, onSelect}: IProps) => {
     return (
         <div className="absolute z-50 left-0 top-14 bg-primary-12 rounded-lg overflow-auto w-full">
 
-            <div className="flex justify-center py-10 font-bold text-2xl text-primary-1">
-                <img src={modelText} width={103} height={"auto"} />
+            <div className="flex justify-center py-10 font-bold text-2xl text-primary-1 font-[logirent]">
+                models
             </div>
-
 
             <div className="px-8 flex flex-col gap-4">
 
