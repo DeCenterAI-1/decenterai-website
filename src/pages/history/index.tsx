@@ -24,7 +24,7 @@ const History = () => {
                     {
                         jobs.map((job, index) => {
                             return (
-                                <tr key={index} className="h-[56px] w-full border-primary-11 border-[1px] rounded-2xl my-3 text-sm text-primary-5">
+                                <tr key={index} className="h-[56px] w-full border-primary-11 border-[1px] rounded-2xl text-sm text-primary-5">
                                     <td className="text-center">{job.job}</td>
                                     <td className="text-center text-primary-7 text-xs">{job.created}</td>
                                     <td className="flex justify-center items-center h-[56px]">

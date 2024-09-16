@@ -8,8 +8,8 @@ interface IProps {
 const Table = ({heads,  children}: IProps) => {
 
     return (
-        <div className="h-[80vh] w-full basis-full bg-primary-12 rounded-[20px] border-[1px] border-primary-5 p-6 overflow-auto">
-            <table className="w-full">
+        <div className="h-[80vh] w-full basis-full rounded-[20px] border-[1px] border-primary-12 p-6 overflow-y-auto bg-[#080808]">
+            <table className="w-full my-table border-separate border-spacing-y-4">
                 <thead className="font-[logirent]">
                     <tr>
                         {

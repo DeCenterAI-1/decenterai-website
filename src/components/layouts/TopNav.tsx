@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom"
 import logo from "../../assets/logo.png"
 import { cn } from "../../lib/utils"
+import { ConnectKitButton } from "connectkit"
 
 const links = [
     {text: "Inferencing", link: "/"},
@@ -13,7 +14,7 @@ const TopNav = () => {
     const { pathname } = useLocation()
 
     return (
-        <nav className="flex items-center px-10 h-[88px] fixed top-0 left-0">
+        <nav className="flex justify-between items-center px-10 h-[88px] w-full fixed top-0 left-0">
 
             <div className="flex items-center">
 
@@ -36,6 +37,8 @@ const TopNav = () => {
                 </ul>
 
             </div>
+
+            <ConnectKitButton />
 
         </nav>
     )

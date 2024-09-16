@@ -35,7 +35,6 @@ const Inference = () => {
         setValues({...values, files: [...newArr]})
     }
 
-
     const run = () => {
         navigate("/inferencing/testing")
     }
