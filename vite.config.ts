@@ -10,7 +10,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve("./"),
       "@src": path.resolve("./src"),
-      "@assets": path.resolve("./src/assets"),
+      "@assets": path.resolve("./public/assets"),
     },
   },
 })

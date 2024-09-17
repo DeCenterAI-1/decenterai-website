@@ -8,7 +8,7 @@
     "paths": {
         "@/*": ["./*"],
         "@src/*": ["./*"],
-        "@assets/*": ["./src/assets/*"]
+        "@assets/*": ["./public/assets/*"]
     }
   },
 }
