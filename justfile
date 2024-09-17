@@ -1,0 +1,5 @@
+
+
+
+deploy:
+  vercel deploy
