@@ -10,7 +10,7 @@
   "installCommand": "npm install -g bun && bun i",
   "buildCommand": "bun run build",
   "devCommand": "bun dev",
-  "outputDirectory": ".dist",
+  "outputDirectory": "dist",
   "public": true,
   "cleanUrls": true,
   "crons": []
