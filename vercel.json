@@ -1,7 +1,6 @@
 {
   "version": 2,
   "framework": "vite",
-  "builds": [],
   "installCommand": "npm install -g bun && bun i",
   "buildCommand": "bun run build",
   "devCommand": "bun dev",
