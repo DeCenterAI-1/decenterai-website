@@ -1,12 +1,7 @@
 {
   "version": 2,
   "framework": "vite",
-  "builds": [
-    {
-      "src": "vite.config.ts",
-      "use": "@vercel/vite"
-    }
-  ],
+  "builds": [],
   "installCommand": "npm install -g bun && bun i",
   "buildCommand": "bun run build",
   "devCommand": "bun dev",
