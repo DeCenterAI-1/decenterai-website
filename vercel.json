@@ -7,9 +7,9 @@
       "use": "@vercel/react"
     }
   ],
-  "installCommand": "pnpm install",
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "installCommand": "npm install -g bun && bun i",
+  "buildCommand": "bun run build",
+  "devCommand": "bun dev",
   "outputDirectory": ".dist",
   "public": true,
   "cleanUrls": true,
