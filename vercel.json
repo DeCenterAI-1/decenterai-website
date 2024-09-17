@@ -3,8 +3,8 @@
   "framework": "vite",
   "builds": [
     {
-      "src": "next.config.js",
-      "use": "@vercel/react"
+      "src": "vite.config.js",
+      "use": "@vercel/vite"
     }
   ],
   "installCommand": "npm install -g bun && bun i",
