@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "installCommand": "npm install -g bun && bun i",
+  "buildCommand": "bun run build",
+  "devCommand": "bun dev",
+  "outputDirectory": "dist",
+  "public": true,
+  "cleanUrls": true,
+  "crons": []
+}
