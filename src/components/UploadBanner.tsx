@@ -1,5 +1,5 @@
 import { cn } from "../lib/utils"
-import trashIcon from "@assets/Trash.png"
+import trashIcon from "@assets/trash.png"
 import { useEffect, useState } from "react";
 
 interface IProps {
