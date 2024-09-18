@@ -14,14 +14,13 @@ const TopNav = () => {
     const { pathname } = useLocation()
 
     return (
-        <nav className="flex justify-between items-center px-10 h-[88px] w-full fixed top-0 left-0">
+        <nav className="flex justify-between items-center sm:px-6 md:px-10 h-[88px] w-full fixed top-0 left-0">
 
             <div className="flex items-center">
 
-                <Link to={"/"}> <img src={logo} width={156} height={31} /></Link>
+                <Link to={"/"}> <img src={logo} width={156} height={"auto"} className="w-32 sm:w-40" /></Link>
      
-
-                <ul className="flex justify-between gap-x-20 ml-20">
+                <ul className="hidden sm:flex justify-between gap-x-2 sm:gap-x-10 lg:gap-x-20 ml-20">
                     {
                         links.map((link, index) => {
                             return (

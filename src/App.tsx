@@ -6,6 +6,7 @@ import History from "./pages/history"
 import Explore from "./pages/explore"
 import { Web3Provider } from "./Web3Provider"
 
+
 function App() {
 
   return (
