@@ -1,4 +1,4 @@
-import uploadIcon from "../../assets/upload-icon.png";
+import uploadIcon from "@assets/upload-icon.png";
 
 interface IProps {
     selectFile: (file: File) => void;

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { cn } from "../../lib/utils";
-import arrowImage from "../../assets/select-arrow.png"
+import arrowImage from "@assets/select-arrow.png"
 import { ISelectOption } from "../../lib/interfaces";
 import SelectModal from "./SelectModal";
 

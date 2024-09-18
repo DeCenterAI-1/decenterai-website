@@ -1,6 +1,6 @@
 import { RotatingLines } from "react-loader-spinner"
 import { JOB_STATUS } from "../lib/enums"
-import statusTick from "../assets/status-tick.png"
+import statusTick from "@assets/status-tick.png"
 
 const StatusTag = ({status} : { status : JOB_STATUS }) => {
 
