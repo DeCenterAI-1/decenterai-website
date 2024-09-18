@@ -1,7 +1,4 @@
 {
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
-    ],
   "version": 2,
   "framework": "vite",
   "installCommand": "npm install -g bun && bun i",
@@ -10,5 +7,11 @@
   "outputDirectory": "dist",
   "public": true,
   "cleanUrls": true,
-  "crons": []
+  "crons": [],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
